@@ -82,9 +82,9 @@ for id, info in word_dict.items():
 total = {k: v for k, v in sorted(sorted_total.items(), key = lambda item: item[1], reverse = True)}
 position1 = {k: v for k, v in sorted(sorted_pos1.items(), key = lambda item: item[1], reverse = True)}
 position2 = {k: v for k, v in sorted(sorted_pos2.items(), key = lambda item: item[1], reverse = True)}
-position3 = {k: v for k, v in sorted(sorted_pos2.items(), key = lambda item: item[1], reverse = True)}
-position4 = {k: v for k, v in sorted(sorted_pos2.items(), key = lambda item: item[1], reverse = True)}
-position5 = {k: v for k, v in sorted(sorted_pos2.items(), key = lambda item: item[1], reverse = True)}
+position3 = {k: v for k, v in sorted(sorted_pos3.items(), key = lambda item: item[1], reverse = True)}
+position4 = {k: v for k, v in sorted(sorted_pos4.items(), key = lambda item: item[1], reverse = True)}
+position5 = {k: v for k, v in sorted(sorted_pos5.items(), key = lambda item: item[1], reverse = True)}
 
 
 # Grouped Bar Chart (FINAL EXAM QUESTION)
